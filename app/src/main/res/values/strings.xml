@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Datos de Contacto</string>
+
+    <string name="detalle_titulo">Confirmar Datos</string>
+
+    <string name="form_username">Nombre completo</string>
+    <string name="form_telefono">Telefono</string>
+    <string name="form_email">Email</string>
+    <string name="form_descripcion">Descripcion Contacto</string>
+
+    <string name="fuser">nombre</string>
+    <string name="ftelefono">telefono</string>
+    <string name="femail">email</string>
+    <string name="fdescripcion">descripcion</string>
+
+    <string name="label_user">Nombre: </string>
+    <string name="label_fecha">Fecha: </string>
+    <string name="label_fecha_nac">Fecha de Nacimiento</string>
+    <string name="label_telefono">Telefono: </string>
+    <string name="label_email">Email: </string>
+    <string name="label_descripcion">Descripcion: </string>
+
+    <string name="alert_complete_form">Por favor corrija el form antes de continuar</string>
+    <string name="alert_nombre">Ingrese un nombre</string>
+
+</resources>

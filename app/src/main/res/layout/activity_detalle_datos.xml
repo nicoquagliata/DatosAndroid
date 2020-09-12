@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".DetalleDatos"
+    >
+<!--    Titulo -->
+    <TextView
+        android:id="@+id/detalleTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/detalle_titulo_margin"
+        android:gravity="center"
+        android:text="@string/detalle_titulo"
+        android:textSize="@dimen/detalle_titulo_text_size"
+        android:textStyle="bold" />
+
+<!--    Nombre      -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/label_margin_top"
+        android:paddingStart="@dimen/label_padding"
+        android:paddingLeft="@dimen/label_padding"
+        android:layout_marginLeft="@dimen/label_margin_top"
+        >
+        <TextView
+            android:layout_width="@dimen/label_width"
+            android:layout_height="wrap_content"
+            android:text="@string/label_user"
+            android:layout_gravity="center_vertical"
+            android:textSize="@dimen/label_text_size"
+            android:gravity="right"
+            android:paddingEnd="@dimen/label_padding"
+            android:paddingRight="@dimen/label_padding"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvNombre"
+            android:text="Nico Quagliata"
+            android:layout_gravity="center_vertical"
+            android:textSize="@dimen/label_text_size"
+            />
+    </LinearLayout>
+
+    <!--    Fecha      -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/label_margin_top"
+        android:paddingStart="@dimen/label_padding"
+        android:paddingLeft="@dimen/label_padding"
+        android:layout_marginLeft="@dimen/label_margin_top"
+
+        >
+        <TextView
+            android:layout_width="@dimen/label_width"
+            android:layout_height="wrap_content"
+            android:text="@string/label_fecha"
+            android:layout_gravity="center_vertical"
+            android:textSize="@dimen/label_text_size"
+            android:gravity="right"
+            android:paddingEnd="@dimen/label_padding"
+            android:paddingRight="@dimen/label_padding"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvFecha"
+            android:text="12/4/2012"
+            android:layout_gravity="center_vertical"
+            android:textSize="@dimen/label_text_size"
+            />
+    </LinearLayout>
+
+    <!--    Fecha      -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/label_margin_top"
+        android:paddingStart="@dimen/label_padding"
+        android:paddingLeft="@dimen/label_padding"
+        android:layout_marginLeft="@dimen/label_margin_top"
+        >
+        <TextView
+            android:layout_width="@dimen/label_width"
+            android:layout_height="wrap_content"
+            android:text="@string/label_telefono"
+            android:layout_gravity="center_vertical"
+            android:textSize="@dimen/label_text_size"
+            android:gravity="right"
+            android:paddingEnd="@dimen/label_padding"
+            android:paddingRight="@dimen/label_padding"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvTelefono"
+            android:text="1122"
+            android:layout_gravity="center_vertical"
+            android:textSize="@dimen/label_text_size"
+            />
+    </LinearLayout>
+
+    <!--    Email      -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/label_margin_top"
+        android:paddingStart="@dimen/label_padding"
+        android:paddingLeft="@dimen/label_padding"
+        android:layout_marginLeft="@dimen/label_margin_top"
+        >
+        <TextView
+            android:layout_width="@dimen/label_width"
+            android:layout_height="wrap_content"
+            android:text="@string/label_email"
+            android:layout_gravity="center_vertical"
+            android:textSize="@dimen/label_text_size"
+            android:gravity="right"
+            android:paddingEnd="@dimen/label_padding"
+            android:paddingRight="@dimen/label_padding"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvEmail"
+            android:text="juan@pino.com"
+            android:layout_gravity="center_vertical"
+            android:textSize="@dimen/label_text_size"
+            />
+    </LinearLayout>
+
+    <!--    Descripcion      -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/label_margin_top"
+        android:paddingStart="@dimen/label_padding"
+        android:paddingLeft="@dimen/label_padding"
+        android:layout_marginLeft="@dimen/label_margin_top"
+        >
+        <TextView
+            android:layout_width="@dimen/label_width"
+            android:layout_height="wrap_content"
+            android:text="@string/label_descripcion"
+            android:layout_gravity="center_vertical"
+            android:textSize="@dimen/label_text_size"
+            android:gravity="right"
+            android:paddingEnd="@dimen/label_padding"
+            android:paddingRight="@dimen/label_padding"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvDescripcion"
+            android:text="desc..."
+            android:layout_gravity="center_vertical"
+            android:textSize="@dimen/label_text_size"
+            />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnEditar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="@dimen/btn_margin_top"
+        android:layout_marginRight="100dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="Editar Datos"
+        android:onClick="editarDatos"
+        />
+
+
+</LinearLayout>

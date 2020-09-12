@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="detalle_titulo_text_size">22sp</dimen>
+    <dimen name="detalle_titulo_margin">5dp</dimen>
+
+    <dimen name="label_width">120dp</dimen>
+    <dimen name="label_text_size">18sp</dimen>
+    <dimen name="label_margin_top">10dp</dimen>
+    <dimen name="label_padding">5dp</dimen>
+    <dimen name="btn_margin_top">10dp</dimen>
+
+</resources>
